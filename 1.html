@@ -2,63 +2,68 @@
 <html>
 
 <head>
-    <title>성발라 - 내게 오는 길</title>
+    <title>내게 오는 길</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1><a href="index.html">성발라</a></h1>
-    <ol>
-        <li><a href="1.html">내게 오는 길</a></li>
-        <li><a href="2.html">너의 모든 순간</a></li>
-        <li><a href="3.html">희재</a></li>
-    </ol>
-    <h2><a href="https://www.youtube.com/watch?v=xnH9T6WWznc" 
-        title="html5 speicification" target="_blank">내게 오는 길</a></h2>
-    <p style="margin-top:45px;">
-        지금 곁에서 딴 생각에 잠겨 걷고 있는 그대
-        설레는 마음에 몰래 그대 모습 바라보면서 내안에 담아요
-        사랑이겠죠 또 다른 말로는 설명할 수 없죠
-        함께 걷는 이 길 다시 추억으로 끝나지 않게
-        꼭 오늘처럼 지켜갈게요
-        사랑한다는 그말
-        아껴둘껄 그랬죠
-        이제 어떻게 내맘 표현해야 하나
-        모든것이 변해가도 이맘으로 그댈 사랑할게요
-    </p>
-    <p>
-        망설였나요
-        날 받아주기가 아직 힘든가요
-        그댈 떠난 사랑 그만 잊으려고 애쓰진 마요
-        나 그때까지 기다릴테니
-        사랑한다는 그말
-        아껴둘껄 그랬죠
-        이제 어떻게 내맘 표현해야 하나
-        모든것이 변해가도 이 맘으로 그댈 사랑할게요
-    </p>
-    <p>
-        눈물이 또 남아있다면 모두 흘려버려요
-        이 좋은 하늘아래 우리만 남도록
-    </p>
-    <p>
-        사랑할 수 있나요
-        내가 다가간만큼
-        이젠 내게 와줘요
-        내게 기댄마음
-        사랑이 아니라 해도 괜찮아요 그댈 볼수 있으니
-        괜찮아요 내가 사랑할테니 
-    </p>
-    <img src="images/mry.jpg" alt="" width="200">
-    <figure>
-        <audio src="성발라_내게 오는 길.mp3" controls id="내게오는길" autoplay>내게오는길</audio>
-    </figure>
+    <h1><a href="index.html">성시경</a></h1>
+    <div id="grid">
+        <ul>
+            <li><a href="1.html">내게 오는 길</a></li>
+            <li><a href="2.html">너의 모든 순간</a></li>
+            <li><a href="3.html">희재</a></li>
+            <li><a href="4.html">넌 감동이었어</a></li>
+        </ul>
+        <div id="article">
+            <h2><a href="https://www.youtube.com/watch?v=xnH9T6WWznc" title="html5 speicification" target="_blank">내게 오는
+                    길</a>
+            </h2>
+            <p style="margin-top:45px;">
+                <p>
+                지금 곁에서 딴 생각에 잠겨 걷고 있는 그대<br>
+                설레는 마음에 몰래 그대 모습 바라보면서 내안에 담아요<br>
+                사랑이겠죠 또 다른 말로는 설명할 수 없죠<br>
+                함께 걷는 이 길 다시 추억으로 끝나지 않게<br>
+                꼭 오늘처럼 지켜갈게요<br>
+                사랑한다는 그말<br>
+                아껴둘껄 그랬죠<br>
+                이제 어떻게 내맘 표현해야 하나<br>
+                모든것이 변해가도 이맘으로 그댈 사랑할게요<br><br></p>
+                <p>
+                망설였나요<br>
+                날 받아주기가 아직 힘든가요<br>
+                그댈 떠난 사랑 그만 잊으려고 애쓰진 마요<br>
+                나 그때까지 기다릴테니<br>
+                사랑한다는 그말<br>
+                아껴둘껄 그랬죠<br>
+                이제 어떻게 내맘 표현해야 하나<br>
+                모든것이 변해가도 이 맘으로 그댈 사랑할게요<br><br></p>
+                <p>
+                눈물이 또 남아있다면 모두 흘려버려요<br>
+                이 좋은 하늘아래 우리만 남도록<br><br></p>
+                <p>
+                사랑할 수 있나요<br>
+                내가 다가간만큼<br>
+                이젠 내게 와줘요<br>
+                내게 기댄마음<br>
+                사랑이 아니라 해도 괜찮아요 그댈 볼수 있으니<br>
+                괜찮아요 내가 사랑할테니<br></p>
+            </p><br>
 
+            <figure>
+                <audio src="성발라_내게 오는 길.mp3" controls id="내게오는길">내게오는길</audio>
+            </figure>
+            
+        </div>
+    </div>
 
-    
     <script>
         var audio = document.getElementById("내게오는길");
         audio.volume = 0.2;
     </script>
+
 </body>
 
 </html>
